@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at center, #000 0%, #111 100%);
+  color: #fff;
+}
+
+#container {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+#controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(0,0,0,0.7);
+  padding: 15px;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+  width: 220px;
+}
+
+#controls h1 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.slider-container {
+  margin-bottom: 12px;
+}
+
+.slider-container label {
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+
+.slider-container input[type="range"] {
+  width: 100%;
+}
